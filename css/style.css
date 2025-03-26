@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --tipografia: Arimo;
+    --Gris: #f3f3f3;
+    --Verde: #6cb500;
+    --GrisMenu: #f3f3f3;
+
+}
+
+body {
+    font-family: var(--tipografia);
+    font-size: 16px;
+    line-height: 24px;
+    color: #333;
+}
+
+header {
+    background-color: var(--Gris);
+}
+
+#iconomenu {
+    display: none;
+}
+
+.ancho {
+    max-width: 1200px;
+    margin: auto;
+}
+
+header {
+    background-color: var(--Gris);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-top {
+    width: 300px;
+    padding: 10px;
+}
+
+.logo-top img {
+    width: 100%;
+    display: inline-block;
+}
+
+header nav a {
+    text-decoration: none;
+    color: var(--Negro);
+    margin: 0 10px;
+}
+
+.icono-menu {
+    display: none;
+}
+
+.slide {
+    background: url(../imagenes/foto_slide.jpg) no-repeat center center;
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slide-h1 {
+    max-width: 37%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.slide h1 {
+    font-size: 60px;
+    font-weight: normal;
+    color: var(--Gris);
+    text-align: left;
+    line-height: 1.4;
+    word-spacing: 2px;
+    max-width: 100%;
+    margin: 0;
+    margin-left: -180px;
+    margin-top: -120px;
+    padding: 0;
+}
+
+
+.servicios {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.textos {
+    padding: 10px;
+    margin: auto;
+    max-width: 500px;
+    margin-bottom: 40px;
+}
+
+.textos h2 {
+    font-weight: normal;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.textos h3 {
+    font-weight: normal;
+    color: var(--Verde);
+    font-size: 20px;
+}
+
+.items {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+
+.item-servicios figcaption {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: var(--Verde);
+}
+
+.item-servicios {
+    flex: 1 1 calc(33.33% - 20px);
+    padding: 40px;
+    background-color: var(--Gris);
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.item-servicios:hover {
+    transform: translateY(-5px);
+}
+
+.item-servicios img {
+    max-width: 100px;
+    margin-bottom: 10px;
+}
+
+footer {
+    padding: 50px;
+    text-align: center;
+    align-items: center;
+    background-color: var(--Verde);
+}
