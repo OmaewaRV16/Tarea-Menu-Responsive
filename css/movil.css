@@ -1,53 +1,51 @@
 @media screen and (max-width: 768px) {
 
-.header {
-    display: flex;
-    flex-direction: column;
-}
+    .header {
+        display: flex;
+        flex-direction: column;
+    }
 
-.logo {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 90%;
-    margin:  10px 40px;
-}
+    .logo {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 90%;
+        margin:  10px 40px;
+    }
 
-.icono-menu {
-    display: block;
-}
+    .icono-menu {
+        display: block;
+    }
 
-.icono-menu i {
-    font-size: 30px;
-    color: var(--Verde);
-}
+    .icono-menu i {
+        font-size: 30px;
+        color: var(--Verde);
+    }
 
-.logo-top {
-    width: 200px;
-    padding: 0;
-}
+    .logo-top {
+        width: 200px;
+        padding: 0;
+    }
 
-.menu {
-    width: 90%;
-    background-color: var(--Gris);
-    margin: 20px 40px;
-    padding: 10px;
-    display: none;
-}
+    .menu {
+        width: 90%;
+        background-color: var(--Gris);
+        margin: 20px 40px;
+        padding: 10px;
+        display: none;
+    }
 
-.menu a {
-    border-bottom: 1px dotted black;
-}
+    .menu a {
+        border-bottom: 1px dotted black;
+    }
 
-header nav a {
-    display: flex;
-    justify-content: flex-start;
-    font-weight: 500;
-    border-bottom: 2px var(--Negro) dotted;
-    padding: 10px;
-}
-
-    /* Ajustes para el slider */
+    header nav a {
+        display: flex;
+        justify-content: flex-start;
+        font-weight: 500;
+        border-bottom: 2px var(--Negro) dotted;
+        padding: 10px;
+    }
     .slide {
         background: url(../imagenes/foto_slide.jpg) no-repeat left center;
         background-position: -550px center;
@@ -81,6 +79,14 @@ header nav a {
     /* Sección de servicios */
     .servicios {
         text-align: center;
+    }
+
+    .item-servicios {
+        transition: none;
+    }
+
+    .item-servicios:hover {
+        transform: none;
     }
 
     .textos h2 {
